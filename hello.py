@@ -9,7 +9,7 @@ import time
 #import pytesseract
 #pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract'
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] ='C:\\Users\\HP\\Desktop\\My Project 48944-03cdfd0fa610.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] =''
 
 
 app = Flask(__name__, template_folder='C:\\Users\\HP\\Desktop\\final\\',static_folder='C:\\Users\\HP\\Desktop\\final\\static')
